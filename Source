@@ -42,8 +42,7 @@ end)
 tab:Button("Disable Auto Equip", "Disables Auto Equip", function() 
 getgenv().autospin = false 
                 while wait() do
-                    if not getgenv().autospin then return end
-                    
+                    if not getgenv().autospin then return end                  
 local tool = "Weight"
 
 for i,v in pairs(game:GetService("Players").LocalPlayer.Backpack:GetChildren()) do
